@@ -1,0 +1,8 @@
+form {
+  height: 25%;
+  width: inherit;
+}
+
+form > select, input, button {
+  
+}

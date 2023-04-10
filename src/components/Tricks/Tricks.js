@@ -2,6 +2,7 @@ import React from "react";
 import './Tricks.css';
 
 function Tricks({tricks}) {
+  console.log(tricks)
   const trickCards = tricks.map((trick) => {
     return (
       <div className="trick-card" id={trick.id} key={trick.id}>

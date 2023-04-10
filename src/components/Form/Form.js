@@ -12,15 +12,13 @@ function Form({addTrick}) {
     const newTrick = {
       id: Date.now(),
       stance: stance,
-      trick: trickName,
+      name: trickName,
       obstacle: obstacle,
       tutorial: link
     }
     console.log(newTrick)
     addTrick(newTrick);
     setTrickName('')
-    setStance('')
-    setObstacle('')
     setLink('')
   }
 

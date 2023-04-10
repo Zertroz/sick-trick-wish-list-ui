@@ -53,7 +53,7 @@ function Form({addTrick}) {
         value={link}
         onChange={event => setLink(event.target.value)}
       />
-      <button onClick={submitTrick}>SUBMIT</button>
+      <button onClick={submitTrick}>Send it!</button>
     </form>
   )
 }
